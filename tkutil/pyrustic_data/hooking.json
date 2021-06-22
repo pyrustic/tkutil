@@ -1,0 +1,14 @@
+{
+    "ante_build": [
+        "tkutil.hooking.ante_build_hook"
+    ],
+    "ante_release": [
+        "tkutil.hooking.ante_release_hook"
+    ],
+    "post_build": [
+        "tkutil.hooking.post_build_hook"
+    ],
+    "post_release": [
+        "tkutil.hooking.post_release_hook"
+    ]
+}
