@@ -33,8 +33,8 @@ def center_window(window, within=None):
 def align_window(window, under=None):
     window.withdraw()
     window.update_idletasks()
-    width = window.winfo_width()
-    height = window.winfo_height()
+    width = window.winfo_reqwidth()
+    height = window.winfo_reqheight()
     under_x = under.winfo_rootx()
     under_y = under.winfo_rooty()
     x = under_x
@@ -44,7 +44,7 @@ def align_window(window, under=None):
     if window.winfo_screenwidth() - x < width:
         x = window.winfo_screenwidth() - width
     if window.winfo_screenheight() - y < height:
-        y = window.winfo_screenheight() - height
+        y = under_y - window.winfo_reqheight()
     # align
     window.geometry("+{}+{}".format(x, y))
     window.deiconify()
