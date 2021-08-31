@@ -65,7 +65,7 @@ def formal_geometry(window):
 
 ```python
 
-def merge_cnfs(main_cnfs, extra_cnfs, components=None):
+def merge_megaconfig(primary=None, secondary=None):
     """
     
     """
