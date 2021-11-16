@@ -1,1 +1,8 @@
-[]
+[
+    {
+        "app_version": "0.0.4",
+        "released": true,
+        "timestamp": 1630415425,
+        "wheel_asset": "tkutil-0.0.4-py3-none-any.whl"
+    }
+]

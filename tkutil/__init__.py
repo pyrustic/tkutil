@@ -73,21 +73,13 @@ def center_dialog_effect(window, within=None):
 def merge_megaconfig(primary=None, secondary=None):
     primary = primary if primary else dict()
     secondary = secondary if secondary else dict()
-    megaconfig = dict()
-    # parse secondary megaconfig
-    for part, config in secondary.items():
-        megaconfig[part] = config
-    # parse primary megaconfig
     for part, config in primary.items():
-        if config is not None:
-            megaconfig[part] = config
-    return megaconfig
+        if part in secondary:
+            secondary[part].update(**config)
+        else:
+            secondary[part] = config
+    return secondary
 
 
 class Error(Exception):
-    def __init__(self, *args, **kwargs):
-        self.message = args[0] if args else ""
-        super().__init__(self.message)
-
-    def __str__(self):
-        return self.message
+    pass
