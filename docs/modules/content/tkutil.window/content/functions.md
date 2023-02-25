@@ -2,18 +2,50 @@ Back to [All Modules](https://github.com/pyrustic/tkutil/blob/master/docs/module
 
 # Module Overview
 
-**tkutil**
+**tkutil.window**
  
 No description
 
-> **Classes:** &nbsp; [WinfoUpdater](https://github.com/pyrustic/tkutil/blob/master/docs/modules/content/tkutil/content/classes/WinfoUpdater.md#class-winfoupdater)
+> **Classes:** &nbsp; [WinfoUpdater](https://github.com/pyrustic/tkutil/blob/master/docs/modules/content/tkutil.window/content/classes/WinfoUpdater.md#class-winfoupdater)
 >
-> **Functions:** &nbsp; [align](#align) &nbsp;&nbsp; [center](#center) &nbsp;&nbsp; [compute\_alignment](#compute_alignment) &nbsp;&nbsp; [compute\_center](#compute_center) &nbsp;&nbsp; [get\_geometry](#get_geometry) &nbsp;&nbsp; [hide\_early](#hide_early) &nbsp;&nbsp; [make\_modal](#make_modal) &nbsp;&nbsp; [relocate](#relocate) &nbsp;&nbsp; [restore\_coords](#restore_coords) &nbsp;&nbsp; [restore\_geometry](#restore_geometry) &nbsp;&nbsp; [restore\_size](#restore_size) &nbsp;&nbsp; [save\_coords](#save_coords) &nbsp;&nbsp; [save\_geometry](#save_geometry) &nbsp;&nbsp; [save\_size](#save_size)
+> **Functions:** &nbsp; [\_compute\_alignment\_within\_parent](#_compute_alignment_within_parent) &nbsp;&nbsp; [\_compute\_alignment\_within\_screen](#_compute_alignment_within_screen) &nbsp;&nbsp; [align](#align) &nbsp;&nbsp; [center](#center) &nbsp;&nbsp; [compute\_alignment](#compute_alignment) &nbsp;&nbsp; [compute\_center](#compute_center) &nbsp;&nbsp; [get\_geometry](#get_geometry) &nbsp;&nbsp; [hide\_early](#hide_early) &nbsp;&nbsp; [make\_modal](#make_modal) &nbsp;&nbsp; [relocate](#relocate) &nbsp;&nbsp; [restore\_coords](#restore_coords) &nbsp;&nbsp; [restore\_geometry](#restore_geometry) &nbsp;&nbsp; [restore\_size](#restore_size) &nbsp;&nbsp; [save\_coords](#save_coords) &nbsp;&nbsp; [save\_geometry](#save_geometry) &nbsp;&nbsp; [save\_size](#save_size)
 >
 > **Constants:** &nbsp; None
 
 # All Functions
-[align](#align) &nbsp;&nbsp; [center](#center) &nbsp;&nbsp; [compute\_alignment](#compute_alignment) &nbsp;&nbsp; [compute\_center](#compute_center) &nbsp;&nbsp; [get\_geometry](#get_geometry) &nbsp;&nbsp; [hide\_early](#hide_early) &nbsp;&nbsp; [make\_modal](#make_modal) &nbsp;&nbsp; [relocate](#relocate) &nbsp;&nbsp; [restore\_coords](#restore_coords) &nbsp;&nbsp; [restore\_geometry](#restore_geometry) &nbsp;&nbsp; [restore\_size](#restore_size) &nbsp;&nbsp; [save\_coords](#save_coords) &nbsp;&nbsp; [save\_geometry](#save_geometry) &nbsp;&nbsp; [save\_size](#save_size)
+[\_compute\_alignment\_within\_parent](#_compute_alignment_within_parent) &nbsp;&nbsp; [\_compute\_alignment\_within\_screen](#_compute_alignment_within_screen) &nbsp;&nbsp; [align](#align) &nbsp;&nbsp; [center](#center) &nbsp;&nbsp; [compute\_alignment](#compute_alignment) &nbsp;&nbsp; [compute\_center](#compute_center) &nbsp;&nbsp; [get\_geometry](#get_geometry) &nbsp;&nbsp; [hide\_early](#hide_early) &nbsp;&nbsp; [make\_modal](#make_modal) &nbsp;&nbsp; [relocate](#relocate) &nbsp;&nbsp; [restore\_coords](#restore_coords) &nbsp;&nbsp; [restore\_geometry](#restore_geometry) &nbsp;&nbsp; [restore\_size](#restore_size) &nbsp;&nbsp; [save\_coords](#save_coords) &nbsp;&nbsp; [save\_geometry](#save_geometry) &nbsp;&nbsp; [save\_size](#save_size)
+
+## \_compute\_alignment\_within\_parent
+No description
+
+
+
+**Signature:** (window, parent, side='n')
+
+
+
+
+
+**Return Value:** None
+
+[Back to Top](#module-overview)
+
+
+## \_compute\_alignment\_within\_screen
+No description
+
+
+
+**Signature:** (window, side='n')
+
+
+
+
+
+**Return Value:** None
+
+[Back to Top](#module-overview)
+
 
 ## align
 No description
